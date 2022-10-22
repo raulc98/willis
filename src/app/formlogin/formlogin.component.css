@@ -1,20 +1,23 @@
 #formulario{
-  width: 50vh;
+  padding: auto;
+  width: 40vh;
   height: 50vh;
-  position: absolute;
-  border-radius: 10px;
-  border: 0.5px solid;
   box-shadow: #84b0e87c;
-  background-color: #023c87d7;
+  background-color: #0062e2;
   text-align: center;
 }
 
 .forminput{
-  text-align: center;
   width: 100%;
 }
 
 #btn_registro{
+  border-radius: 0;
+  width: 40vh;
+  background-color: #0062e2;
   margin-top: 0;
 }
 
+#btn_registro :hover{
+  background-color: #4491f5;
+}

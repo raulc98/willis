@@ -1,27 +1,27 @@
 <div id="formulario" *ngIf="esForm">
+  <form action="">
   <p class="textform">
-    <mat-form-field appearance="fill" class="forminput">
+    <mat-form-field class="forminput">
       <mat-label>Fill form field</mat-label>
       <input matInput placeholder="Login">
-      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
       <mat-hint>Hint</mat-hint>
     </mat-form-field>
   </p>
   <p class="textform">
-    <mat-form-field appearance="fill" class="forminput">
+    <mat-form-field  class="forminput">
       <mat-label>Fill form field</mat-label>
       <input matInput placeholder="Email">
-      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
       <mat-hint>Hint</mat-hint>
     </mat-form-field>
   </p>
   <p class="textform">
-    <mat-form-field appearance="fill" class="forminput">
+    <mat-form-field class="forminput">
       <mat-label>Fill form field</mat-label>
-      <input matInput placeholder="Contraseña">
-      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <input type="password" matInput placeholder="Contraseña">
       <mat-hint>Hint</mat-hint>
     </mat-form-field>
   </p>
-  <button mat-raised-button color="primary" id="btn_registro" (click)="btn_registro()" type="button">Regístrate</button>
+</form>
 </div>
+<button  *ngIf="esForm" mat-raised-button color="primary" id="btn_registro" (click)="btn_registro()" type="button">Regístrate</button>
+

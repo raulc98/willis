@@ -29,7 +29,7 @@ import { InfoComponent } from './info/info.component';
     MatButtonModule,
     MatCardModule,
     MatMenuModule,
-    MatFormFieldModule
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
